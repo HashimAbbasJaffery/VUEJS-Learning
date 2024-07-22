@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="h-full grid place-items-center">
+    <div id="app">
+        <section id="completed" v-show="completedAssignments.length">
+            <p class="font-bold mb-3">Completed Assignments</p>
+            <ul>
+                <li 
+                    v-for="assignment in completedAssignments" 
+                    :key="assignment.id"
+                >
+                    {{ assignment.task }} <input type="checkbox" v-model="assignment.completed">
+                </li>
+            </ul>
+        </section>
+        <section id="incomplete" v-show="incompleteAssignments.length">
+            <p class="font-bold mb-3">incomplete Assignments</p>
+            <ul>
+                <li 
+                    v-for="assignment in incompleteAssignments" 
+                    :key="assignment.id"
+                >
+                    {{ assignment.task }} <input type="checkbox" v-model="assignment.completed">
+                </li>
+            </ul>
+        </section>
+    </div>
+
+    <script>
+        let app = {
+            data() {
+                return {
+                    assignments: [
+                        { task: "Hashim", completed: false, id: 1 },
+                        { task: "Tanzeela", completed: false, id: 2 },
+                        { task: "Taskeen", completed: false, id: 3 },
+                    ]
+                }
+            },
+            computed: {
+                completedAssignments() {
+                    return this.assignments.filter(assignment => assignment.completed);
+                },
+                incompleteAssignments() {
+                    return this.assignments.filter(assignment => !assignment.completed);
+                }
+            }
+        };
+        Vue.createApp(app).mount("#app");
+    </script>
+</body>
+</html>

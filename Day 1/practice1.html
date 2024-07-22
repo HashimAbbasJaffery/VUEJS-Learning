@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" id="app">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body :style="{ 'background': color }" style="height: 100vh; padding: 0px; margin: 0px">
+    
+    <input type="color" name="changeColor" v-model="color" id="changeColor">
+    <p :style="{ 'color': color }">{{ color }}</p>
+   <script>
+        Vue.createApp({
+            data() {
+                return {
+                    color: "#000"
+                }
+            }
+        }).mount("#app");
+    </script>
+</body>
+</html>
