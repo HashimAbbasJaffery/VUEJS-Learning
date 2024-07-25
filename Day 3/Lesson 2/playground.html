@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="h-full grid place-items-center">
+
+    <!-- Vue Area -->
+    <div id="app">
+        <input type="text" :value="name" @input="name = $event.target.value">
+        <p>{{ name }}</p>
+    </div>
+
+    <script >
+        let App = {
+            data() {
+                return {
+                    name: "Data"
+                }
+            }
+        }
+        Vue.createApp(App).mount("#app");
+    </script>
+</body>
+</html>

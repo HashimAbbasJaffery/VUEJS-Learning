@@ -1,0 +1,7 @@
+{
+    "assignments": [
+        { "task": "Differential Equation Homework", "completed": false, "id": 1, "tag": "mathematics" },
+        { "task": "FYP", "completed": false, "id": 2, "tag": "computer"  },
+        { "task": "Cloud Computing", "completed": false, "id": 3, "tag": "computer"  }
+    ]
+}

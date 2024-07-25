@@ -1,0 +1,200 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "Learning of vue.js",
+            "description": "Vue.js is a progressive JavaScript framework designed for creating interactive web interfaces. It's known for its simplicity, flexibility, and efficiency. By building upon standard HTML, CSS, and JavaScript, Vue.js offers a declarative and component-based approach to development.",
+            "created_at": "17-03-2003",
+            "category_id": 1,
+            "likes": 100,
+            "likeable": false,
+            "footer_info": "Would you like to know more about specific features or how to get started with Vue.js?"
+        },
+        {
+            "id": 2,
+            "title": "Mastering Python",
+            "description": "Python is a versatile programming language used in web development, data science, and machine learning. Its readability and simplicity make it a popular choice for beginners and experienced programmers.",
+            "created_at": "25-07-2024",
+            "category_id": 1,
+            "likes": 100,
+            "likeable": true
+        },
+        {
+            "id": 3,
+            "title": "The Art of Storytelling",
+            "description": "Discover the power of storytelling through captivating narratives and engaging characters.",
+            "created_at": "12-11-2023",
+            "category_id": 2,
+            "likes": 100,
+            "likeable": true
+        },
+        {
+            "id": 4,
+            "title": "Cooking Delights",
+            "description": "Explore a world of flavors and culinary adventures with delicious recipes and cooking tips.",
+            "created_at": "05-04-2024",
+            "category_id": 2,
+            "likes": 100,
+            "likeable": true,
+            "footer_info": "Let's cook together!"
+        },
+        {
+            "id": 5,
+            "title": "The Chronicles of Narnia",
+            "description": "Embark on a magical journey through the land of Narnia, filled with mythical creatures and extraordinary adventures.",
+            "created_at": "23-09-2022",
+            "category_id": 3,
+            "likes": 100,
+            "likeable": true
+        },
+        {
+            "id": 6,
+            "title": "Building a Better Future",
+            "description": "Explore the challenges and opportunities facing our world and discover ways to create a positive impact.",
+            "created_at": "18-02-2024",
+            "category_id": 1,
+            "likes": 100,
+            "likeable": true
+        },
+        {
+            "id": 7,
+            "title": "Fitness and Wellness",
+            "description": "Achieve your health and fitness goals with expert advice, workout routines, and healthy lifestyle tips.",
+            "created_at": "07-06-2023",
+            "category_id": 2,
+            "likes": 100,
+            "likeable": true
+        },
+        {
+            "id": 8,
+            "title": "The Lord of the Rings",
+            "description": "Journey to Middle-earth and experience the epic tale of good versus evil.",
+            "created_at": "15-12-2021",
+            "category_id": 3,
+            "likes": 100,
+            "likeable": true
+        },
+        {
+            "id": 9,
+            "title": "Digital Marketing Mastery",
+            "description": "Learn the art and science of digital marketing to reach your target audience effectively.",
+            "created_at": "28-01-2024",
+            "category_id": 1,
+            "likes": 100,
+            "likeable": true
+        },
+        {
+            "id": 10,
+            "title": "The Wonders of Nature",
+            "description": "Explore the beauty and diversity of the natural world through stunning photography and informative articles.",
+            "created_at": "11-09-2023",
+            "category_id": 2,
+            "likes": 100,
+            "likeable": true
+        },
+        {
+            "id": 11,
+            "title": "Star Wars: A Galaxy Far, Far Away",
+            "description": "Join the epic saga of the Star Wars universe, filled with heroes, villains, and unforgettable adventures.",
+            "created_at": "04-05-2022",
+            "category_id": 3,
+            "likes": 100,
+            "likeable": true
+        },
+        {
+            "id": 12,
+            "title": "Financial Freedom",
+            "description": "Discover strategies for achieving financial independence and building wealth.",
+            "created_at": "22-03-2024",
+            "category_id": 1,
+            "likes": 100,
+            "likeable": true
+        },
+        {
+            "id": 13,
+            "title": "The Art of Travel",
+            "description": "Explore the world with insider tips, travel guides, and breathtaking destinations.",
+            "created_at": "09-07-2023",
+            "category_id": 2,
+            "likes": 100,
+            "likeable": true
+        },
+        {
+            "id": 14,
+            "title": "Harry Potter and the Sorcerer's Stone",
+            "description": "Embark on a magical journey with Harry Potter as he discovers his destiny.",
+            "created_at": "30-11-2021",
+            "category_id": 3,
+            "likes": 100,
+            "likeable": true
+        },
+        {
+            "id": 15,
+            "title": "Healthy Living",
+            "description": "Tips and advice for a healthy lifestyle, including nutrition, exercise, and mental well-being.",
+            "created_at": "16-02-2024",
+            "category_id": 2,
+            "likes": 100,
+            "likeable": true
+        },
+        {
+            "id": 16,
+            "title": "The Hunger Games",
+            "description": "Dive into the dystopian world of Panem and follow Katniss Everdeen's fight for survival.",
+            "created_at": "29-05-2022",
+            "category_id": 3,
+            "likes": 100,
+            "likeable": true
+        },
+        {
+            "id": 17,
+            "title": "Web Development Bootcamp",
+            "description": "Master the skills to build dynamic and interactive websites with HTML, CSS, and JavaScript.",
+            "created_at": "20-04-2024",
+            "category_id": 1,
+            "likes": 100,
+            "likeable": true
+        },
+        {
+            "id": 18,
+            "title": "The Power of Mindfulness",
+            "description": "Discover the benefits of mindfulness and learn techniques to reduce stress and improve focus.",
+            "created_at": "08-08-2023",
+            "category_id": 2,
+            "likes": 100,
+            "likeable": true
+        },
+        {
+            "id": 19,
+            "title": "The Chronicles of Narnia",
+            "description": "Embark on a magical journey through the land of Narnia, filled with mythical creatures and extraordinary adventures.",
+            "created_at": "15-12-2021",
+            "category_id": 3,
+            "likes": 100,
+            "likeable": true
+        },
+        {
+            "id": 20,
+            "title": "Data Science Fundamentals",
+            "description": "Learn the basics of data science, including data collection, analysis, and visualization.",
+            "created_at": "12-01-2024",
+            "category_id": 1,
+            "likes": 100,
+            "likeable": true
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "category": "Programming"
+        },
+        {
+            "id": 2,
+            "category": "Entertainmaint"
+        },
+        {
+            "id": 3,
+            "category": "Fictional"
+        }
+    ]
+}
